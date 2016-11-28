@@ -1,0 +1,21 @@
+.content{
+	border: 1px solid #ccc;
+	display:block;
+	padding: 20px 0;
+}
+h2,h1{
+	text-align: center;
+}
+label{
+	width: 60px;
+	text-align: right;
+}
+.inp{
+	margin: 20px 0;
+}
+.left,.right{
+	display: inline-block;
+}
+.lef{
+	text-align: center;
+}

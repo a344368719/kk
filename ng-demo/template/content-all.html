@@ -1,0 +1,8 @@
+<label for="sear">搜索</label><input id="sear" type="text" ng-model="text" />
+<ul ng-repeat="i in dataList | filter:text">
+	<li>标题：{{i.jobTitle}}</li>
+	<li>时间：{{i.createDate}}</li>
+	<li>描述：{{i.description}}</li>
+	<li>是否描述：<input type="checkbox" ng-model="i.isActive" /></li>
+	<li>工作ID：{{i.jobId}}</li>
+</ul>

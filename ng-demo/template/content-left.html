@@ -1,0 +1,11 @@
+<div>序号</div>
+<ul>
+	<li>
+		<a href="#/content">全部</a>
+	</li>
+</ul>
+<ul ng-repeat="i in data">
+	<li>
+		<a ng-href="#/content/content-{{$index+1}}">第{{$index+1}}个</a>
+	</li>
+</ul>

@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header ul li {
+	display: inline-block;
+}
+
+.header ul {
+	padding: 20px;
+	background-color: black;
+}
+
+.reg {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.reg-form {
+	margin: 50px auto 60px;
+	width: 830px;
+	text-align: center;
+}
+
+.user {
+	border: solid 1px #ddd;
+	width: 398px;
+	height: 52px;
+	margin: 40px auto;
+}
+
+.user label {
+	float: left;
+	width: 90px;
+	height: 52px;
+	line-height: 52px;
+	padding-left: 20px;
+	font-size: 14px;
+	color: #666;
+}
+
+.user input {
+	border: 0 none;
+	font-size: 14px;
+	width: 190px;
+	height: 19px;
+	padding-bottom: 11px;
+	padding-left: 20px;
+	padding-top: 16px;
+	outline: none;
+}
+
+.bttn {
+	width: 398px;
+	height: 54px;
+	color: #fff;
+	background: #e22;
+	border: 0;
+	font-size: 16px;
+	font-family: "Microsoft YaHei", "Hiragino Sans GB";
+	cursor: pointer;
+}
+
+.lay {
+	width: 200px;
+	padding: 0 5px;
+	display: inline-block;
+	height: 30px;
+	background-color: rgba(1,1,1,0.5);
+	position: fixed;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-radius: 5px;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+}

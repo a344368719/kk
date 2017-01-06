@@ -1,0 +1,20 @@
+<div class="reg">
+	<div class="reg-form">
+		<form name="form" novalidate="novalidate">
+			<h2>欢迎注册</h2>
+			<div class="user">
+				<label>用　户　名</label>
+				<input type="text" required="required" ng-model="user.username" class="field" autocomplete="off" maxlength="20" placeholder="请输入用户名">
+			</div>
+			<div class="user">
+				<label>设 置 密 码</label>
+				<input type="password" required="required" ng-model="user.pwd" class="field" ng-minlength="6" autocomplete="off" maxlength="20" placeholder="请输入密码">
+			</div>
+			<div class="user">
+				<label>确 认 密 码</label>
+				<input type="password" ng-model="user.pwd2" class="field" ng-minlength="6" autocomplete="off" maxlength="20" placeholder="请确认密码">
+			</div>
+			<input type="button" value="确认注册" class="bttn" ng-click="sub()"/>
+		</form>
+	</div>
+</div>
